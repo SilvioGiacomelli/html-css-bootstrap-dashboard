@@ -125,13 +125,22 @@ header{
 .question p{
   display: none;
 }
+.row{
+  position: relative;
+}
 @media screen and (min-width: 768px){
   .top-right{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  .todo{
+    position: absolute;
+    right: 9%;
+    top: 1.2%
+  }
 }
+
 @media screen and (min-width: 1140px){
   .left{
     width: 90px;
