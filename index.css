@@ -49,6 +49,7 @@ header{
   height: 100%;
   overflow-y: scroll;
 }
+
 .top-right{
   background-color: #1b72e8;
 }
@@ -78,8 +79,10 @@ header{
   font-size: 2rem;
 }
 
-@media screen and (max-width: 600px){
-
+@media screen and (min-width: 768px){
+  .top-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
-576
-768 
