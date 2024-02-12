@@ -46,8 +46,7 @@ header{
 }
 .right{
   width: 100%;
-  height: 100%;
-  overflow-y: scroll;
+  max-height: 100%;
 }
 
 .top-right{
@@ -93,6 +92,37 @@ header{
 }
 .tabella .contenuto{
   width: 50%;
+}
+.data{
+  width: 35%;
+}
+.roi{
+  width: 10%
+}
+.stato{
+  width: 15%
+}
+.azioni{
+  width: 30%;
+}
+.question{
+  padding: 30px;
+  position: relative;
+}
+.question i{
+  position: absolute;
+  right: 10px;
+}
+.question:hover p,
+.question:hover .fa-chevron-up{
+  display: block;
+}
+.question:hover .fa-chevron-down,
+.question .fa-chevron-up{
+  display: none;
+}
+.question p{
+  display: none;
 }
 @media screen and (min-width: 768px){
   .top-right{
