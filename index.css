@@ -1,0 +1,9 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.debug{
+  border: 3px solid black;
+}
+.search-bar{
+  width: 100%;
+}
