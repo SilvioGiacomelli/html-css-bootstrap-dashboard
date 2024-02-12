@@ -9,7 +9,7 @@ img{
   border: 1px solid rgb(196, 8, 8);
 }
 .debug{
-  border: 1px dashed black;
+  border: 2px dashed black;
 }
 header{
   background-color: #f8f9fa;
@@ -79,6 +79,21 @@ header{
   font-size: 2rem;
 }
 
+.titolo{
+  border-radius: 1px solid;
+  border-radius: 10px 0;
+}
+
+.line{
+  border-bottom: 2px solid black;
+}
+
+.tabella .classe{
+  width: 30%;
+}
+.tabella .contenuto{
+  width: 50%;
+}
 @media screen and (min-width: 768px){
   .top-right{
     display: flex;
@@ -86,3 +101,9 @@ header{
     align-items: center;
   }
 }
+@media screen and (min-width: 1140px){
+  .left{
+    width: 90px;
+  }
+}
+  
