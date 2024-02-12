@@ -3,7 +3,9 @@ body{
 }
 .debug{
   border: 3px solid black;
+  height: 50px;
 }
-.search-bar{
-  width: 100%;
+header{
+  height: 70px;
+  background-color: #f8f9fa;
 }
