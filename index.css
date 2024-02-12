@@ -1,11 +1,44 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+img{
+  width: 100%;
+  max-height: 100%;
+}
+.debug-red{
+  border: 3px solid rgb(196, 8, 8);
+}
 .debug{
-  border: 3px solid black;
-  height: 50px;
+  border: 1px solid black;
 }
 header{
-  height: 70px;
   background-color: #f8f9fa;
+  height: 70px;
+  width: 100%;
+}
+.logo{
+  width: auto;
+  height: 70px;
+}
+.searchbar{
+  width: 100%;
+}
+.top-nav{
+  height: 100%;
+  width: 100%;
+}
+.left{
+  width: 75px;
+  background-color: #051e34;
+  height: 100vh;
+}
+.right{
+  width: 100%;
+}
+.top-right{
+  background-color: #1b72e8;
+  height: 25vh;
+}
+.bottom-roght{
+  overflow-y: auto;
 }
