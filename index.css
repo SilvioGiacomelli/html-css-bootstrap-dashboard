@@ -57,7 +57,7 @@ header{
   height: 100vh;
   overflow-y: scroll;
 }
-.right button{
+.top-right button{
   text-decoration: none;
   background-color: #1b72e8;
   color: white;
