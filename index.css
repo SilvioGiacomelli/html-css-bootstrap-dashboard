@@ -36,8 +36,16 @@ header{
   height: 100%;
   width: 100%;
 }
-.top-nav .bell{
+.top-nav button{
+  text-decoration: none;
+  border: none;
+  background-color: white;
+}
+.bell{
   color: #ff8f00;
+  background-color: white;
+  border: none;
+  text-decoration: none;
 }
 .left{
   width: 75px;
