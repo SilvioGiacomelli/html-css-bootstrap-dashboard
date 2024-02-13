@@ -95,16 +95,13 @@ header{
   font-weight: bold;
   font-size: 2rem;
 }
-
 .titolo{
   border-radius: 1px solid;
   border-radius: 10px 0;
 }
-
 .line{
   border-bottom: 2px solid black;
 }
-
 .tabella .classe{
   width: 30%;
 }
@@ -141,6 +138,14 @@ header{
 }
 .question p{
   display: none;
+}
+.bottom-right{
+  background-color: #f8f9fa;
+}
+@media screen and (max-width: 767px){
+  .right .tendina{
+    width: 100% !important;
+  }
 }
 @media screen and (min-width: 768px){
   .top-right{
