@@ -139,6 +139,9 @@ header{
 .question .fa-chevron-up{
   display: none;
 }
+.question p{
+  display: none;
+}
 @media screen and (min-width: 768px){
   .top-right{
     display: flex;
